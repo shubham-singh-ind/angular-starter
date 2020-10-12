@@ -1,9 +1,9 @@
 # Learn
 ## Cloneable project for start up
 git clone https://github.com/shubham-singh-ind/angular-starter.git
-cd angular-starter
-npm install
-ng serve
+&& cd angular-starter
+&& npm install
+&& ng serve
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.1.
 
