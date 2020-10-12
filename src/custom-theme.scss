@@ -1,0 +1,19 @@
+@import "~@angular/material/theming";
+
+@include mat-core();
+
+$ecommerce-theme-primary: mat-palette($mat-deep-orange);
+$ecommerce-theme-accent: mat-palette($mat-pink, A200, A100, A400);
+$ecommerce-app-warn: mat-palette($mat-red);
+
+$ecommerce-theme: mat-light-theme(
+  (
+    color: (
+      primary: $ecommerce-theme-primary,
+      accent: $ecommerce-theme-accent,
+      warn: $ecommerce-app-warn,
+    ),
+  )
+);
+
+@include angular-material-theme($ecommerce-theme);
