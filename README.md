@@ -1,4 +1,6 @@
 # Learn
+## Cloneable project for start up
+git clone https://github.com/shubham-singh-ind/angular-starter.git
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.1.
 
